@@ -1,0 +1,16 @@
+.btn {
+	align-self: center;
+	padding: 15px;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+	font-weight: 900;
+
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	&:active {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}

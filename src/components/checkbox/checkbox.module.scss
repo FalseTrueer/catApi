@@ -1,0 +1,21 @@
+.wrapper_checkbox {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.checkbox {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #888;
+	border-radius: 4px;
+	background-color: white;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+
+	&:checked {
+		background-color: #4caf50;
+		border-color: #4caf50;
+	}
+}
